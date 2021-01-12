@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimaryDark">#007D36</color>
+    <color name="colorPrimary">#36B5FE</color>
+    <color name="colorTextBlack">#202020</color>
+    <color name="colorBackground">#F8F8F8</color>
+    <color name="colorBackgroundList">#E6E9EE</color>
+    <color name="colorBgSub">#2E9259</color>
+    <color name="colorDefault">#BDBDBD</color>
+    <color name="colorBgCode">#EAEAEA</color>
+    <color name="colorMoney">#007D36</color>
+
+
+</resources>

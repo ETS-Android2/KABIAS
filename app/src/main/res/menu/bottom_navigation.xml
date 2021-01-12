@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/antar"
+        android:title="Antar Saya"
+        android:icon="@drawable/ic_antar_on" />
+
+    <item
+        android:id="@+id/jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/ic_jadwal_on" />
+
+    <item
+        android:id="@+id/peta"
+        android:title="Peta Rute"
+        android:icon="@drawable/ic_peta_on" />
+
+    <item
+        android:id="@+id/informasi"
+        android:title="Informasi"
+        android:icon="@drawable/ic_info_on" />
+
+</menu>

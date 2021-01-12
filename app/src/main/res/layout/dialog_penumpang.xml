@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/colorBackground"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:text="Pilih Jumlah Penumpang"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <RadioButton
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="1 Dewasa"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextBlack"
+            android:fontFamily="@font/lato"/>
+
+        <RadioButton
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="2 Dewasa"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextBlack"
+            android:fontFamily="@font/lato" />
+
+        <RadioButton
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="3 Dewasa"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextBlack"
+            android:fontFamily="@font/lato" />
+
+        <RadioButton
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="4 Dewasa"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextBlack"
+            android:fontFamily="@font/lato" />
+
+        <RadioButton
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="5 Dewasa"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextBlack"
+            android:fontFamily="@font/lato" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_pilih_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_btn_primary_r8"
+        android:fontFamily="@font/lato_bold"
+        android:text="Pilih"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBackground"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_kategori" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

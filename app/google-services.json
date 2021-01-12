@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722805851642",
+    "project_id": "kabias",
+    "storage_bucket": "kabias.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722805851642:android:17c1ce06963eed93b41043",
+        "android_client_info": {
+          "package_name": "com.example.kabias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722805851642-82sgc235kfss0qilupk7tr3i16qvitg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_PA9XXcUJAFPAd0HHIWRwrqj5q6fn3TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722805851642-82sgc235kfss0qilupk7tr3i16qvitg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
